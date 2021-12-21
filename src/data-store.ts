@@ -7,6 +7,7 @@ Subject.prototype.hook = function () {
   return value;
 };
 
+// hehe
 // another one here
 const store = {
   value: new Subject(""),

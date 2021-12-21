@@ -9,6 +9,7 @@ interface Props {
   setState: React.Dispatch<React.SetStateAction<State>>;
 }
 
+// muchalucha
 const AppStateContext = createContext<Props | null>(null);
 
 export const AppStateProvider: React.FC<Props> = ({ children }) => {
